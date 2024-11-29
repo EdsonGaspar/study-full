@@ -1,3 +1,4 @@
+import Form from "./components/form";
 import { List } from "./components/list";
 import { NavBar } from "./components/navbar";
 import { Seach } from "./components/search";
@@ -10,6 +11,7 @@ function App() {
       {/* <Test /> */}
       <Seach />
       <List />
+      <Form />
     </main>
   );
 }
