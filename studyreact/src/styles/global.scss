@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  // Conceito do SASS, Encadeiamento dos elementos. Ou seja uma tag pode estar dentro da outra.
+  h1 {
+    text-align: center;
+  }
+}
+.helo_scss {
+  color: red;
+  font-size: 40px;
+  background-color: green;
+}
