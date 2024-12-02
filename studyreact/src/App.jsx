@@ -1,18 +1,10 @@
-import Form from "./components/form";
-import { List } from "./components/list";
-import { NavBar } from "./components/navbar";
-import { Seach } from "./components/search";
-// import Test from "./components/text";
+import { RepositoryList } from "./components/repositoryList";
 import "./styles/global.scss";
 
 function App() {
   return (
     <main>
-      <NavBar />
-      {/* <Test /> */}
-      <Seach />
-      <List />
-      <Form />
+      <RepositoryList />
     </main>
   );
 }
