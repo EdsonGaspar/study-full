@@ -6,8 +6,8 @@ export function RepositoryList() {
       <h2>Lista de Repositorio</h2>
       <ul>
         <RepositoryItems repository="Unform01" />
-        <RepositoryItems />
-        <RepositoryItems />
+        <RepositoryItems repository="Unform02" />
+        <RepositoryItems repository="Unform03" />
       </ul>
     </section>
   );
