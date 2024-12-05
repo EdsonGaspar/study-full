@@ -1,3 +1,4 @@
+import { Counter } from "./couter";
 import { RepositoryItems } from "./repositoryitems";
 
 export function RepositoryList() {
@@ -9,6 +10,7 @@ export function RepositoryList() {
         <RepositoryItems repository="Unform02" />
         <RepositoryItems repository="Unform03" />
       </ul>
+      <Counter />
     </section>
   );
 }

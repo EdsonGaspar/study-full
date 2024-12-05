@@ -7,9 +7,23 @@
 body {
   font: 16px "Helvetica Neve", Arial, sans-serif;
   color: #121214;
+  padding: 8px 32px;
 
   // Conceito do SASS, Encadeiamento dos elementos. Ou seja uma tag pode estar dentro da outra.
   // h1 {
   //   text-align: center;
   // }
+}
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #030303;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+ul > li {
+  text-decoration: none;
 }
