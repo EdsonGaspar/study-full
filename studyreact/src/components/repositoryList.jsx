@@ -1,10 +1,11 @@
 import { Counter } from "./couter";
 import { RepositoryItems } from "./repositoryitems";
+import "../styles/stylelistrepository.scss";
 
 export function RepositoryList() {
   return (
-    <section>
-      <h2>Lista de Repositorio</h2>
+    <section className="list-repository">
+      <h1>Lista de Repositorio</h1>
       <ul>
         <RepositoryItems repository="Unform01" />
         <RepositoryItems repository="Unform02" />
