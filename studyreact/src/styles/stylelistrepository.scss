@@ -11,6 +11,10 @@ section.list-repository {
       & + li {
         margin-top: 20px;
       }
+      border: 1px solid #44444434;
+      padding: 10px;
+      border-radius: 6px;
+
       p {
         font-size: 14px;
         color: #444;
@@ -21,6 +25,9 @@ section.list-repository {
         margin-top: 16px;
         text-decoration: none;
         color: #57e6;
+      }
+      a:hover {
+        color: rgba(53, 93, 235, 0.719);
       }
     }
   }
